@@ -1,0 +1,134 @@
+.navbar-brand {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-style {
+    background-color: red;
+}
+
+
+/* make header image responsive */
+
+.back-image {
+    background-size: cover;
+    background-position: center center;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 57px;
+    background-repeat: no-repeat;
+}
+
+
+/* header image subtilte */
+
+.font-italic {
+    font-size: 24px;
+}
+
+
+/* margin for welcome to osms */
+
+.mainHeading {
+    margin-top: 50px;
+}
+
+
+/*  @media only screen and(max-width: 600px)  */
+
+.myclass {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/* footer media */
+
+.fi-color {
+    color: rgb(47, 255, 168);
+}
+
+.fi-color:hover {
+    font-size: 20px;
+    ;
+}
+
+.text-h {
+    color: yellow;
+}
+
+.text-h1 {
+    color: red;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* @media only screen and(max-width: 575px) */
+
+
+/* css for login button */
+
+
+/* search bar css start  */
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.search_input {
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: center;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+    padding: 0 10px;
+    width: 180px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+    background: white;
+    position: relative;
+    color: #e74c3c;
+}
+
+.search_icon {
+    /* height: 30px; */
+    /* width : 30px; */
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 50%;
+    color: green;
+    text-decoration: none;
+}
+
+
+/* search bar css end */
+
+
+/* for print table */
+
+@media print {
+    * {
+        display: none;
+    }
+    #printableTable {
+        display: inline;
+    }
+}
